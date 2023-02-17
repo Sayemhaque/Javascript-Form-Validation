@@ -1,0 +1,39 @@
+.form-control.success input{
+    border: 2px solid rgb(145, 241, 0) ;
+    margin-bottom: 15px;
+}
+
+.form-control.error input{
+    border: 2px solid rgb(255, 128, 111) ;
+    margin-bottom: 15px;
+}
+
+.form-control small{
+    display: none;
+}
+
+.form-control.error small {
+    display: block;
+}
+
+
+
+
+.form-control i.fa-circle-check{
+   display: none;
+}
+
+.form-control i.fa-circle-exclamation{
+    display: none;
+ }
+ 
+.form-control.success i.fa-circle-check{
+    display: block;
+    color: rgb(145, 241, 0);
+}
+
+.form-control.error i.fa-circle-exclamation{
+    display: block;
+    color: red;
+}
+
